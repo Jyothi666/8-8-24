@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            color:chocolate;
+        }
+        h1{
+            color:limegreen
+        }
+    </style>
+    <h1>Phone number Validation</h1>
+    <form action="../Login and register/login response.html" metho="post">
+        <input type="text" name="Phone number" placeholder="Phone number" required pattern="\+91[6-9][0-9]{9}">
+
+    <h1>Email Validation</h1>
+        <input type="text" name="Email" placeholder="Email" required pattern="[a-z._\d]+@[a-z]\.[a-z]{2,}">
+
+    <h1>Password Validation</h1>
+        <input type="text" name="Password" placeholder="Password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$]).{8,}">
+        <input type="submit">
+    </form>
+</body>
+</html>
